@@ -1,7 +1,4 @@
-<?php
+<?php //file: db.php
 
-$koneksi = mysqli_connect("localhost", "root", "", "belajar_loginapp");
-
-if(!$koneksi){
-	echo "connection failed";
-}
+// 1. Koneksif
+$koneksi = mysqli_connect("localhost","root","","belajar_kalbis");
